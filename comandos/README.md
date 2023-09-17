@@ -4,8 +4,13 @@ python -m venv venv
 . venv/bin/activate
 pip install django
 django-admin startproject project .
-Configurar o git
+python manage.py startapp contact
+Criado o app, atalizar INSTALLED_APPS com o nome do app
 
+
+
+
+Configurar o git
 
 git config --global user.name 'Seu nome'
 git config --global user.email 'seu_email@gmail.com'
@@ -15,3 +20,4 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+
